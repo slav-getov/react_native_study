@@ -1,0 +1,1 @@
+Learning react native via udemy. Done by Preslav Getov
