@@ -1,15 +1,17 @@
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 import HomeScreen from "./src/screens/HomeScreen";
-
+import TextScreen from "./src/screens/TextScreen";
+import CombinedTextElement from "./src/screens/CombinedTextElement";
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
+    CombinedGreeting: CombinedTextElement
   },
   {
-    initialRouteName: "Home",
+    initialRouteName: "CombinedGreeting",
     defaultNavigationOptions: {
-      title: "App",
+      title: "P.G. first app",
     },
   }
 );
