@@ -7,12 +7,14 @@ const CombinedTextElement = () =>{
             <Text>Getting started with React Native!</Text>
             {informationText}
         </View>
-    )
+    );
 }
 
 const style = StyleSheet.create({
     text: {
         fontSize: 20,
-    }
-})
+    },
+});
+
+
 export default CombinedTextElement;
