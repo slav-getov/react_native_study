@@ -1,8 +1,12 @@
 import React from "react";
-import { Text, StyleSheet } from "react-native";
+import { Text, StyleSheet, View, Button, TouchableOpacity } from "react-native";
 
-const HomeScreen = () => {
-  return <Text style={styles.text}>Home1</Text>;
+const HomeScreen = ({navigation}) => {
+
+  return <View>
+    <Text style={styles.text}>Home1</Text>
+    <TouchableOpacity onPress={()=>navigation.navigate("CombinedGreeting")}><Text>Go to combined text</Text></TouchableOpacity>
+  </View>;
 };
 
 const styles = StyleSheet.create({
