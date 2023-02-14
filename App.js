@@ -12,7 +12,7 @@ const navigator = createStackNavigator(
     FriendList: FriendsScreen
   },
   {
-    initialRouteName: "FriendList",
+    initialRouteName: "Home",
     defaultNavigationOptions: {
       title: "P.G. first app",
     },
