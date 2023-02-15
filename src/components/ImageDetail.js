@@ -1,6 +1,6 @@
 import {View, Text, StyleSheet} from 'react-native'
 
-const ImageDetail = () =><Text>Hello there, this is an image detail component</Text>
+const ImageDetail = ({fillerText}) =><Text>{fillerText}</Text>
 const imageStyle = StyleSheet.create({
 
 });
