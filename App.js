@@ -5,13 +5,16 @@ import TextScreen from "./src/screens/TextScreen";
 import CombinedTextElement from "./src/screens/CombinedTextElement";
 import FriendsScreen from "./src/screens/FriendsScreen";
 import ImageScreen from "./src/screens/ImageScreen";
-
+import TestScreen from "./src/screens/TestScreen";
+import ColorScreen from "./src/screens/ColorScreen";
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
     CombinedGreeting: CombinedTextElement,
     FriendList: FriendsScreen,
-    Image: ImageScreen
+    Image: ImageScreen,
+    Test: TestScreen,
+    Colors: ColorScreen
   },
   {
     initialRouteName: "Home",
